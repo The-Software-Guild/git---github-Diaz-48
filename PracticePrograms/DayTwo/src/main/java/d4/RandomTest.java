@@ -31,5 +31,8 @@ public class RandomTest {
             System.out.println("ERROR: Can't divide by 0!");
             System.out.println(e);
         }
+        finally {
+            
+        }
     }
 }
