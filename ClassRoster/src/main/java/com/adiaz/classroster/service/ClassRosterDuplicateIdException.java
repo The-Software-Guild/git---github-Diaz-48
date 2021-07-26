@@ -3,18 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.adiaz.classroster.dao;
+package com.adiaz.classroster.service;
 
 /**
  *
  * @author Anthony Diaz
  */
-public class ClassRosterDaoException extends Exception{
-    public ClassRosterDaoException(String message) {
+public class ClassRosterDuplicateIdException extends Exception {
+    public ClassRosterDuplicateIdException(String message) {
         super(message);
     }
-    
-    public ClassRosterDaoException(String message, Throwable cause) {
+
+    public ClassRosterDuplicateIdException(String message,
+            Throwable cause) {
         super(message, cause);
     }
 }
